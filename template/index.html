@@ -1,104 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
-    <body>
-        <!-- navbar section -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#"><img src="images\logo-teamsete.png" width="50px" height="auto" alt="">TeamSete Africa</a>
+<head>
+    <title>TeamSete Africa</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><img alt="" height="auto" src="images\logo-teamsete.png" width="50px">TeamSete Africa</a>
 
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Practice Area</a>
+                    <a class="nav-link" href="#">Practice Area</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
-                  </li>
-                  <!-- call to action button -->
+                </li>
+                <!-- call to action button -->
                 <li class="nav-item">
                     <button id="cta-button">
                         <a class="nav-link" href="#">Get Involved</a>
                     </button>
-                  </li>
-              </ul>
-            </div>
-          </nav>
-
-          <!-- carousel section -->
-          <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-              <li data-target="#demo" data-slide-to="4"></li>
+                </li>
             </ul>
+        </div>
+    </nav>
 
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="carousel-img" src="images\img1.jpg" alt="Los Angeles">
-              </div>
-              <div class="carousel-item">
-                <img class="carousel-img" src="images\img4.jpg" alt="Chicago">
-              </div>
-              <div class="carousel-item">
-                <img class="carousel-img" src="images\img5.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img class="carousel-img" src="images\img2.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img class="carousel-img" src="images\img3.jpg" alt="New York">
-              </div>
+    <!-- carousel section -->
+    <div class="carousel slide" data-ride="carousel" id="demo">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#demo"></li>
+            <li data-slide-to="1" data-target="#demo"></li>
+            <li data-slide-to="2" data-target="#demo"></li>
+            <li data-slide-to="3" data-target="#demo"></li>
+            <li data-slide-to="4" data-target="#demo"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="Los Angeles" class="carousel-img" src="images\img1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="Chicago" class="carousel-img" src="images\img4.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="New York" class="carousel-img" src="images\img5.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="New York" class="carousel-img" src="images\img2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="New York" class="carousel-img" src="images\img3.jpg">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" data-slide="prev" href="#demo">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" data-slide="next" href="#demo">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+<!--    mission statement section-->
+    <div class="container about pt-10">
+        <div class="container mission">
+            <div class="text">
+                <h1>OUR MISSION</h1>
+                <p>Partner, advise and train African Organisations on business development using ICT in various sectors and help them in giving back to the society, to impact digital literacy on the African youth.</p>
+            </div>
+            <div class="graphics">
+                <img src="images/svg/mission.svg" width="300px" alt="">
+            </div>
+        </div>
+        <div class=" container vision">
+            <div class="graphics">
+                <img src="images/svg/vision.svg" width="300px" alt="">
             </div>
 
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
+            <div class="text">
+                <h1>OUR VISION</h1>
+                <p>Bridge the digital literacy gap among African Organisations and youths in Sub-Saharan Africa while promoting ICT development of African Organizations in various sectors</p>
+            </div>
+        </div>
+    </div>
 
-          </div>
+<!--    meet the team section-->
+    <div class="container team">
+        <div class="ceo-card">
 
+        </div>
+        <div class="team-cards">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
+<!--    Services section-->
+    <div class="container services">
+        <div class="text">
 
+        </div>
+        <div class="service-cards">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
+<!--    key practice areas section-->
+    <div class="container practice">
+        <div class="heading">
+            <h1>KEY PRACTICE AREAS</h1>
+        </div>
+        <div class="info-cards"></div>
+    </div>
 
+<!--    insights section-->
+    <div class="container insights">
+        <div class="heading">OUR INSIGHTS</div>
+        <div class="insights-cards"></div>
+    </div>
 
+<!--    where to find us section-->
+    <div class="container location">
+        <div class="text">
+            <h1>WHERE TO FIND US</h1>
+            <h3>Nairobi</h3>
+            <p>Based in Nairobi, Kenya, Teamsete Africa has a regional focus to serve, and promote the growth and development of ICT and innovation in Sub-Saharan Africa by empowering African Organisations and the youth of Africa, while providing consultancy to help promote business development in Africa</p>
+        </div>
+    </div>
 
+<!--    footer section-->
+    <footer class="container-fluid">
+        <div class="footer">
+            <div class="info">
+                <h3>TeamSete Africa</h3>
+                <p>Teamsete Africa is build of ambitious young minds, with one mission in their hearts, that's promoting digital inclusion and literacy amongst the African youths, and the development of African organizations or businesses through innovation and ICT</p>
+                <a href="#">Fb</a>
+                <a href="#">Tw</a>
+                <a href="#">in</a>
+            </div>
+            <div class="contact">
+                <h3>Reach Out</h3>
+                <p>lease dont hesitate to reach out to us instantly, we are here for you...
+                    1. Enquire<br>
+                    2.Get a Quote</p>
+<!--                contact form pop-up-->
+                <button> CONTACT US </button>
+            </div>
+            <div class="more-info">
+                <h3>Stay in touch</h3>
+                <p>
+                    Monday - Friday: 0900 - 1700<br>
+                    Saturday: CLOSED<br>
+                    Sunday: CLOSED<br>
+                    Teamsete Africa, Ltd.<br>
+                    P.O. Box 364 - 00100 Nairobi, Kenya<br>
+                    info@teamsete.com<br>
+                    +254 790977340<br>
+                    <span><a href="#">Terms and conditions</a></span> & <span><a href="#">Privacy Policy</a></span></p>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright@2021 TeamSete Africa
+        </div>
+    </footer>
 
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+    <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>
